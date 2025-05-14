@@ -52,8 +52,7 @@ streamlit run music.py
 
 6. User enjoys personalized music recommendations based on how they’re feeling, all powered by real-time AI emotion recognition.
 
-
-##🎯 Emotion Classes Supported
+## 🎯 Emotion Classes Supported
 -happy 😊
 -sad 😢
 -angry 😡
