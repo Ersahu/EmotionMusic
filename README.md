@@ -54,12 +54,19 @@ streamlit run music.py
 
 ## 🎯 Emotion Classes Supported
 -happy 😊
+
 -sad 😢
+
 -angry 😡
+
 -cry 😭
+
 -neutral 😐
+
 -surprise 😲
+
 -rock 🤘 (custom)
+
  You can add more by collecting .npy data and retraining the model.
 
 ## 🧠 Future Roadmap
