@@ -36,7 +36,22 @@ python data_training.py
 **4. Run Live Emoji Emotion Detection**
 python inference.py
 **5. Run Music Recommender App**
-streamlit run music.pys
+streamlit run music.py
+
+## 📞 How It Works
+
+1. User opens the Streamlit app and provides their preferred language and singer (optional).
+
+2. Webcam is activated, and real-time video is processed using MediaPipe Holistic to extract facial and hand landmarks.
+
+3. Landmark data is fed into a trained deep learning model, which predicts the user's current emotion.
+
+4. The predicted emotion is displayed on the video feed along with a matching emoji overlay.
+
+5. User clicks "Recommend me songs", and the app opens a YouTube search page using the emotion, language, and singer as search keywords.
+
+6. User enjoys personalized music recommendations based on how they’re feeling, all powered by real-time AI emotion recognition.
+
 
 ##🎯 Emotion Classes Supported
 -happy 😊
