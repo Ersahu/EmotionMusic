@@ -3,6 +3,7 @@
 
 An intelligent webcam-based emotion recognition system using MediaPipe and a custom-trained neural network. This app detects your facial and hand gestures to recognize your current emotion, then recommends emotion-specific music from YouTube. Emojis are dynamically overlaid on your webcam feed for a fun, expressive UI.
 
+
 ## 🚀 Key Features
 
 - ✅ Real-Time Emotion Detection – Uses webcam with MediaPipe Holistic for landmark extraction.
@@ -18,6 +19,7 @@ An intelligent webcam-based emotion recognition system using MediaPipe and a cus
 - 🔎 Search Personalization – Filter music by language and singer preference.
 
 - 🧪 Data Collection & Training Scripts – Easily expand or retrain the emotion model.
+  
 
 ## 🧱 Tech Stack
 -  **Frontend**: Streamlit + OpenCV
@@ -26,17 +28,29 @@ An intelligent webcam-based emotion recognition system using MediaPipe and a cus
 - **Emoji Overlay**: OpenCV image blending
 - **Video Streaming**: streamlit-webrtcJS
 
+
 ## ⚙️ Setup Instructions
 ** 1. Install Dependencies**
+
 pip install opencv-python mediapipe numpy tensorflow keras streamlit streamlit-webrtc
+
 **2. Collect Emotion Data**
+
 python data_collection.py
+
 **3.Train the Model**
+
 python data_training.py
+
 **4. Run Live Emoji Emotion Detection**
+
 python inference.py
+
 **5. Run Music Recommender App**
+
 streamlit run music.py
+
+
 
 ## 📞 How It Works
 
@@ -51,6 +65,8 @@ streamlit run music.py
 5. User clicks "Recommend me songs", and the app opens a YouTube search page using the emotion, language, and singer as search keywords.
 
 6. User enjoys personalized music recommendations based on how they’re feeling, all powered by real-time AI emotion recognition.
+
+
 
 ## 🎯 Emotion Classes Supported
 - happy 😊
@@ -69,6 +85,8 @@ streamlit run music.py
 
  You can add more by collecting .npy data and retraining the model.
 
+
+
 ## 🧠 Future Roadmap
 - 📄 Emotion timeline logging
 
@@ -82,8 +100,11 @@ streamlit run music.py
 
 
 
+
+
 ## 🤝 Contributions
 We welcome pull requests! For major changes, please open an issue to discuss what you'd like to improve or add.
+
 
 ## 📧 Contact
 **Developer**: Vaibhav
@@ -91,6 +112,7 @@ We welcome pull requests! For major changes, please open an issue to discuss wha
 **Email**: sahuvaibhav064@gmail.com
 
 **LinkedIn**: https://www.linkedin.com/in/vaibhav-chaudhary-615712272/
+
 
 ## 📜 License
 MIT License © 2025 Vaibhav
