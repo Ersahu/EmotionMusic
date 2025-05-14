@@ -5,22 +5,22 @@ An intelligent webcam-based emotion recognition system using MediaPipe and a cus
 
 ## 🚀 Key Features
 
--✅ Real-Time Emotion Detection – Uses webcam with MediaPipe Holistic for landmark extraction.
+- ✅ Real-Time Emotion Detection – Uses webcam with MediaPipe Holistic for landmark extraction.
 
--🧠 Deep Learning Powered – Trained neural network model recognizes multiple emotions.
+- 🧠 Deep Learning Powered – Trained neural network model recognizes multiple emotions.
 
--🎵 Emotion-Based Music Recommendations – Suggests songs on YouTube based on your mood.
+- 🎵 Emotion-Based Music Recommendations – Suggests songs on YouTube based on your mood.
 
--🎭 Live Emoji Overlay – Displays matching emojis directly on your video feed.
+- 🎭 Live Emoji Overlay – Displays matching emojis directly on your video feed.
 
--📷 Streamlit UI – Easy-to-use interface with integrated video stream and controls.
+- 📷 Streamlit UI – Easy-to-use interface with integrated video stream and controls.
 
--🔎 Search Personalization – Filter music by language and singer preference.
+- 🔎 Search Personalization – Filter music by language and singer preference.
 
--🧪 Data Collection & Training Scripts – Easily expand or retrain the emotion model.
+- 🧪 Data Collection & Training Scripts – Easily expand or retrain the emotion model.
 
 ## 🧱 Tech Stack
-- **Frontend**: Streamlit + OpenCV
+-  **Frontend**: Streamlit + OpenCV
 - **Model**: Keras (TensorFlow backend)
 - **Landmarks**: MediaPipe Holistic (Face + Hands)
 - **Emoji Overlay**: OpenCV image blending
@@ -53,32 +53,32 @@ streamlit run music.py
 6. User enjoys personalized music recommendations based on how they’re feeling, all powered by real-time AI emotion recognition.
 
 ## 🎯 Emotion Classes Supported
--happy 😊
+- happy 😊
 
--sad 😢
+- sad 😢
 
--angry 😡
+- angry 😡
 
--cry 😭
+- cry 😭
 
--neutral 😐
+- neutral 😐
 
--surprise 😲
+- surprise 😲
 
--rock 🤘 (custom)
+- rock 🤘 (custom)
 
  You can add more by collecting .npy data and retraining the model.
 
 ## 🧠 Future Roadmap
--📄 Emotion timeline logging
+- 📄 Emotion timeline logging
 
--📁 Exportable emotion reports (CSV/PDF)
+- 📁 Exportable emotion reports (CSV/PDF)
 
--📈 Dashboard for emotion trends
+- 📈 Dashboard for emotion trends
 
--🔊 Audio tone detection (multi-modal emotion)
+- 🔊 Audio tone detection (multi-modal emotion)
 
--🎙️ Voice-controlled music search
+- 🎙️ Voice-controlled music search
 
 
 
